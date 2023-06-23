@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  
+  <title>Newsletter sign-up form with success message</title>
+
+
+  
+</head>
+<body>
+
+    <main class="container">
+
+      <!-- popup -->
+      <div class="popup-container hidden">
+        <div class="popup ">
+          
+          <div class="popup-text-div">
+            <img class="popup-icon" src="assets/images/icon-success.svg" alt="succes-icon">
+                <h1 class="popup-title title"> Thanks for subscribing!</h1>
+            <p class="popup-para para"> A confirmation email has been sent to <span class="user-email">ash@loremcompany.com</span>. 
+              Please open it and click the button inside to confirm your subscription.
+            </p>
+          </div>
+        <button aria-label="button" class="popup-btn btn" type="submit" >Dismiss message</button>
+        </div>
+      </div>
+
+      <!-- main content -->
+
+      
+       
+          
+            <div class="main-container">
+              <div class="img-div">
+              </div>
+              <div class="text-div">
+                <h2 class="title">Stay updated!</h2>
+                <p class="para">
+                  Join 60,000+ product managers receiving monthly updates on:
+                </p>
+                <ul class="para-list">
+                    <li class="para-list-item">Product discovery and building what matters</li>
+                    <li class="para-list-item">Measuring to ensure updates are a success</li>
+                    <li class="para-list-item">And much more!</li>
+                </ul>
+              </div>
+              <form action="/" method="GET" class="input-form" novalidate>
+                <div class="lbl-div">
+                  <label class="imp-lbl" for="email">Email address</label>
+                  <label class="error-lbl imp-lbl hidden" for="email">Valid email required</label>
+                </div>
+                <input  type="email" class="email-inp" data-valid="false" placeholder="email@company.com">
+                <button aria-label="button" class="btn subscribe-btn" type="submit">Subscribe to monthly newsletter</button>
+              </form>
+            </div>
+          
+          
+      
+
+
+
+
+    </main>
+
+</body>
+</html>
