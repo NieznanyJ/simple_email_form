@@ -39,7 +39,7 @@ body {
 }
 
 .img-div {
-  background-image: url("assets/images/illustration-sign-up-mobile.svg");
+  background-image: url("illustration-sign-up-mobile.svg");
   background-position: center;
   background-size: cover;
   min-height: 340px;
@@ -78,7 +78,7 @@ body {
 }
 
 .para-list-item::before {
-  content: url("assets/images/icon-list.svg");
+  content: url("icon-list.svg");
   position: absolute;
   top: 50%;
   left: 0;
@@ -202,7 +202,7 @@ input:focus {
     border-radius: 10px;
   }
   .img-div {
-    background-image: url("assets/images/illustration-sign-up-desktop.svg");
+    background-image: url("illustration-sign-up-desktop.svg");
     background-position: center;
     background-size: cover;
     grid-column: 2/3;
