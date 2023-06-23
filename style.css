@@ -4,9 +4,7 @@
   src: url(Roboto-Bold.ttf) format("truetype"), url(Roboto-Regular.ttf) format("truetype"), url(Roboto-Thin.ttf) format('truetype');
 }
 
-/* primary */
-/* paragraph font size */
-/* /////////////////////////////////////// */
+
 *, *:after, *::before {
   box-sizing: border-box;
   margin: 0;
